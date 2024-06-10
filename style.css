@@ -52,3 +52,7 @@ div#main {
 div.section {
     margin-top: 5em;
 }
+
+table {
+    margin: 10px 10px 10px 100px;
+}
