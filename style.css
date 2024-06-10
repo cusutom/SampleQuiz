@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+body {
+    .m-plus-rounded-1c-regular {
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+h1, h2, h3 {
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;   
+}
+
+h2 {
+    border-bottom: 1px solid gray;
+}
+/* ↓空白で要素の中の要素を選択できる。 */
+ul li, ol li{
+    padding: 1em;
+    list-style-position: inside;
+}
+/* 1pxは1ドット分の大きさ */
+
+ol.answers {
+    list-style: upper-alpha;
+}
+
+ol.answers li:hover {
+    border: 0.1em solid gray;
+    background-color: aquamarine;
+    padding: 0.9em;
+    cursor: pointer;
+}
+
+div#section-correct-answer {
+    display:  none;
+}
+
+span#correct-answer {
+    font-weight: bold;
+    color: red;
+}
+
+/* divのid指定をするときは#を使う */
+div#main {
+    padding: 0 1.5em;
+}
+
+/* divのclass指定をするときは.を使う */
+div.section {
+    margin-top: 5em;
+}
