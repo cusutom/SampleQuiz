@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="questions.js" defer></script>
     <title>問題3 | クイズ</title>
 </head>
 <body>
@@ -14,18 +15,18 @@
             <h2>問題3</h2>
             <p>麻雀で「和了」はなんのこと？</p>
             <h3>選択肢</h3>
-            <ol class="answers">
-                <li>「鳴く」こと</li>
-                <li>「ドラ」のこと</li>
-                <li>「アガリ」のこと</li>
-                <li>「オリ」のこと</li>
+            <ol class="answers" data-id="question3">
+                <li data-answer="A">「鳴く」こと</li>
+                <li data-answer="B">「ドラ」のこと</li>
+                <li data-answer="C">「アガリ」のこと</li>
+                <li data-answer="D">「オリ」のこと</li>
             </ol>
         </div>
 
         <div id="section-correct-answer" class="section">
             <h2>答え</h2>
             <p>
-            　「アガリ」のこと <br><br>
+            　<span id="correct-answer">「アガリ」のこと </span><br><br>
             　「アガリ」とは、手牌を一定の形にそろえることです。「ツモ」で他の人から点数がもらえたり、「ロン」で特定の人から点数がもらえます。<br>
             　「和了」はホーラと読みます。
             </p>

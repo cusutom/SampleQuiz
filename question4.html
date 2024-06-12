@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="questions.js" defer></script>
     <title>問題4 | クイズ</title>
 </head>
 <body>
@@ -15,18 +16,18 @@
             <p>次の麻雀牌に関わるキーワードはどれ？</p>
             <img src="majan.png" alt="「中」と書かれた麻雀牌">
             <h3>選択肢</h3>
-            <ol class="answers">
-                <li>三色同順</li>
-                <li>三色同刻</li>
-                <li>大四喜</li>
-                <li>大三元</li>
+            <ol class="answers" data-id="question1">
+                <li data-answer="A">三色同順</li>
+                <li data-answer="B">三色同刻</li>
+                <li data-answer="C">大四喜</li>
+                <li data-answer="D">大三元</li>
             </ol>
         </div>
 
         <div id="section-correct-answer" class="section">
             <h2>答え</h2>
             <p>
-            　大三元(だいさんげん) <br><br>
+            　<span id="correct-answer">大三元(だいさんげん)</span><br><br>
             　「中」を使った役は大三元のみです。
             </p>
         </div>

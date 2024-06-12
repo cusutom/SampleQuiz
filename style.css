@@ -40,7 +40,6 @@ div#section-correct-answer {
 
 span#correct-answer {
     font-weight: bold;
-    color: red;
 }
 
 /* divのid指定をするときは#を使う */
